@@ -10,9 +10,9 @@
     Age: <input type = "number" name = "age">
   </label> 
   <label>
-    House : <select name = "house">
+    House : <select name = "house_id">
     <% for house in @houses %>
-    <option value = <%=house.name%>><%=house.name%></option>
+    <option value = <%=house.id%>><%=house.name%></option>
     <% end %>
   </label>
   <input type = "submit" value = "Submit"/>

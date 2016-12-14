@@ -1,0 +1,31 @@
+p a{
+  font-family: Kreon ;
+  font-size: 120%;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+body {
+  background-color: ivory;
+}
+
+p a:hover {
+  color: grey;
+  background-color: ivory;
+}
+
+h1 {
+  font-family: Kreon;
+  font-size: 170%;
+  letter-spacing: 0.5em;
+  text-align: center;
+}
+
+p {
+  font-family: Kreon; ;
+  text-align: center;
+}
+
+img {
+  margin-left: 42%;
+}
