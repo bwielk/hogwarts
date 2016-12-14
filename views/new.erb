@@ -1,0 +1,19 @@
+<h1>New Enrolment:</h1>
+<form action = "/students" method = "post">
+  <label>
+    First name : <input type = "text" name = "first_name">
+  </label>
+  <label>
+    Last name : <input type = "text" name = "second_name">
+  </label>
+  <label>
+    Age: <input type = "number" name = "age">
+  </label> 
+  <label>
+    House : <select name = "house">
+    <% for house in @houses %>
+    <option value = <%=house.name%>><%=house.name%></option>
+    <% end %>
+  </label>
+  <input type = "submit" value = "Submit"/>
+</form>

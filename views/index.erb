@@ -1,1 +1,16 @@
-<p>All students</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <h1>All students</h1>
+  <% for student in @students %>
+  <p> Name: <%=student.first_name%> <%=student.second_name%> </p>
+  <p> Age: <%=student.age%> </p>
+  <p> House: <%=student.get_house_name%> </p>
+  <img src="<%=student.get_house_url%>">
+  <br>
+  <%end%>
+</body>
+</html>
